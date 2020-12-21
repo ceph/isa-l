@@ -281,7 +281,7 @@ gf_vect_mad_neon:
 	mov	x_src, x_src_end
 	sub	x_dest1, x_dest1, x_tmp
 
-	ldr	x_const, =const_tbl
+	ldr	x_const, const_tbl
 	sub	x_const, x_const, x_tmp
 	ldr	q_tmp, [x_const, #16]
 

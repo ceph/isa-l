@@ -526,7 +526,7 @@ gf_6vect_mad_neon:
 	sub	x_dest5, x_dest5, x_tmp
 	sub	x_dest6, x_dest6, x_tmp
 
-	ldr	x_const, =const_tbl
+	ldr	x_const, const_tbl
 	sub	x_const, x_const, x_tmp
 	ldr	q_tmp, [x_const, #16]
 
